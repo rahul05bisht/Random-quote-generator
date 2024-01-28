@@ -1,0 +1,66 @@
+.background{
+margin:0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: blueviolet;
+opacity:60%;
+}
+#quote-box{
+  width:600px;
+  margin:0 auto;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align:left;
+  background-color:whitesmoke;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.618);
+  
+}
+.quote-content{
+  height:250px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+  color:black;
+
+}
+#text{
+  font-size:1.3rem;
+}
+#author{
+  text-align: right;
+  font-style: italic;
+
+}
+
+
+a{
+  border-radius: 10px;
+  background-color: deepskyblue;
+  width:fit-content;
+  font-size: 2rem;
+  padding:2px;
+  font-weight: 500;
+  justify-content: center;
+  border:2px solid transparent;
+  cursor:pointer;
+}
+#tumblr{
+  margin:9px;
+}
+#new-quote{
+     height: 38px;
+    border-radius: 5px;
+    color: white;
+    background-color:dodgerblue;
+    font-size: 0.85em;
+    padding: 6px 6px 6px 6px;
+    margin-left: 25rem;
+    cursor: pointer;
+}

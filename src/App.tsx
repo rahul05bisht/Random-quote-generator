@@ -42,7 +42,7 @@ function App() {
           <h4 id="author">-{quote.author}</h4>
         </div>
         <div className="buttons">
-          <a href={"https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text =${quote.quote}"} target="_blank" id="tweet-quote"
+          <a href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${quote.quote}`} target="_blank" id="tweet-quote"
             style={{ backgroundColor: randomColor, transition }}><FaTwitter color="white"></FaTwitter></a>
           <a href={"https://www.tumblr.com/new/quote/text=${quote.quote}"} target="_blank" id="tumblr"  
             style={{ backgroundColor: randomColor, transition }}>
